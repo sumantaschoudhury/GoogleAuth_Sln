@@ -17,7 +17,7 @@ namespace GoogleAuthApp.Controllers
 
         public HomeController(ILogger<HomeController> logger)
         {
-            _logger = logger;
+            _logger = logger;//This is changed
         }
 
         public IActionResult Index()
