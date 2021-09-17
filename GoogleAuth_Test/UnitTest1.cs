@@ -8,7 +8,7 @@ namespace GoogleAuth_Test
         [TestMethod]
         public void TestMethod1()
         {
-            Assert.AreEqual(12, 12);
+            Assert.AreEqual(11, 12);
         }
     }
 }
