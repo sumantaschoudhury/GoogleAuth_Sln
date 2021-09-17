@@ -35,6 +35,6 @@ steps:
 
 - task: VSTest@3
   inputs:
-    command: test
+    command: GoogleAuth_Test
     projects: '**/*Test/*.csproj'
     arguments: '--configuration $(buildConfiguration)'    
