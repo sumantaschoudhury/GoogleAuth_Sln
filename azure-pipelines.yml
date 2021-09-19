@@ -37,4 +37,6 @@ steps:
   inputs:
     command: test
     projects: '**/*Test/*.csproj'
-    arguments: '--configuration $(buildConfiguration)'  
+    arguments: '--configuration $(buildConfiguration)'
+
+- task: PublishBuildArtifacts@1  
