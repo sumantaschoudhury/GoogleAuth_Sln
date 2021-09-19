@@ -25,6 +25,10 @@ namespace GoogleAuthApp.Controllers
             return View();
         }
 
+        public IActionResult google()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();

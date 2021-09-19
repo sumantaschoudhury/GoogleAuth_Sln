@@ -20,7 +20,8 @@ namespace GoogleAuthApp.Controllers
             return Challenge(properties, GoogleDefaults.AuthenticationScheme);
         }
 
-        [Route("google-response")]
+        //[Route("GoogleResponse")]
+        //[Route("googleresponse")]
         public async Task<IActionResult> GoogleResponse()
         {
             var result = await HttpContext.AuthenticateAsync(CookieAuthenticationDefaults.AuthenticationScheme);
